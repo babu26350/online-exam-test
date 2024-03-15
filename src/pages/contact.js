@@ -18,7 +18,7 @@ export const Contact = ()=>{
           
           
           <li>
-            <Link to="/HomeTest2/">START TEST</Link>
+            <Link to="/HomeTest/">START TEST</Link>
           </li>
           <li className="active" >
           <Link to="/contact/">CONTACT</Link>

@@ -3,17 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 //import { useNavigate } from "react-router-dom";
  export const Home = ()=>{
 
-  const Student={
-    firstName:"babu",
-    lastName:"joshi",
-    fullName:function(){
-   return   this.firstName+this.lastName
-    }}
-   const Student1={firstName:"raju",
-            lastName:"joshi"
-          }
-   const fullname = Student.fullName.call(Student1)
-console.log(fullname)
+  
 
   
    return (<> 
@@ -25,7 +15,7 @@ console.log(fullname)
           </li>
         
           <li>
-            <Link to="/HomeTest2/">START TEST</Link>
+            <Link to="/HomeTest/">START TEST</Link>
           </li>
         <li>
           <Link to="/contact/">CONTACT</Link>

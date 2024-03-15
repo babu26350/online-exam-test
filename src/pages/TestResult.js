@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const userRes = [];
 
-function ShowResult2() {
+function ShowResult() {
  // const {props} =useParams()
   const [Res, setRes] = useState(userRes);
 //alert(props)
@@ -37,7 +37,7 @@ function ShowResult2() {
           <Link to="/Home/">HOME</Link>
              </li>
            <li>
-            <Link to="/HomeTest2/">START TEST</Link>
+            <Link to="/HomeTest/">START TEST</Link>
           </li>
           <li>
           <Link to="/contact/">CONTACT</Link>
@@ -92,4 +92,4 @@ function ShowResult2() {
     </>
   );
 }
-export default ShowResult2;
+export default ShowResult;

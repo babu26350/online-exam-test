@@ -8,9 +8,9 @@ import { useState } from "react";
 import Quizlist from "./QuistionsList";
 
 
-const HomeTest2 = () => {
+const HomeTest = () => {
   const navigate = useNavigate();
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(0);
   const [count, setCount] = useState(1);
   const [time, setTime] = useState(0);
   const [color, setColor] = useState("green");
@@ -37,7 +37,7 @@ data[count].question.color=""
   }
     
   function getResult() {
-    navigate("/ShowResult2/", { state: data });
+    navigate("/ShowResult/", { state: data });
   }
   function QuizCountHandler(item1, item2) {
     if (item2 === "n") {
@@ -75,7 +75,7 @@ data[count].question.color=""
           </li>
 
           <li className="active">
-            <Link to="/HomeTest2/">START TEST</Link>
+            <Link to="/HomeTest/">START TEST</Link>
           </li>
           <li>
             <Link to="/contact/">CONTACT</Link>
@@ -95,8 +95,8 @@ data[count].question.color=""
           }}
           
         >
-          <span style={{ color: color,display:"inline-block",marginTop:"7px",marginLeft:"11px" }}>
-            {time === 50 && getResult()}Running:{time}/50
+          <span style={{ color: color,display:"inline-block",marginTop:"7px",marginLeft:"11px",fontSize:"15px" }}>
+            {time === 30*data.length && getResult()}Run:{time}/{30*data.length}/{Math.round(time/(30*data.length)*100)}%
           </span>
         </ul>
       </nav>
@@ -212,4 +212,4 @@ data[count].question.color=""
     </>
   );
 };
-export default HomeTest2;
+export default HomeTest;
