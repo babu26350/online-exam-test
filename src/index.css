@@ -27,7 +27,7 @@ code {
 
 .quizbox{
   width:60%;
-  background-color: rgb(129, 147, 201);
+  background-color: rgb(249, 248, 246);
   height:auto;
   box-sizing: border-box;
   display: flex;
@@ -50,7 +50,7 @@ ul{
   width:100%;
   border-radius: 10px;
   min-width: 400px;
-  background-color: rgb(129, 147, 201);
+  background-color: rgb(249, 248, 246);
   text-align: center;
   box-shadow: 5px -4px 44px -13px  gray;
   box-sizing: border-box;
@@ -66,7 +66,7 @@ ul{
   position: sticky;
   top: 0;
   left: 0;
-  background-image:linear-gradient(rgba(193, 196, 218), rgb(193, 197, 217));
+  background-color:rgb(164, 165, 160);
 
   box-sizing: border-box;
   font-size: 20px;
@@ -76,7 +76,7 @@ ul{
 padding:px 20px ;
   box-sizing: border-box;
 justify-content: space-between;
-  box-shadow: 0px 0px 25px gray;
+  
 
   
   
@@ -89,7 +89,7 @@ ul{
   
 }
 .active{
-  background-color: rgb(49, 111, 225);
+  background-color: rgb(67, 71, 77);
 }
 li{
   list-style-type: none;
@@ -99,12 +99,12 @@ li{
   
   
   text-decoration: none;
-  background-color:rgb(172, 159, 218);
+  background-color:rgb(164, 165, 160);
   
   color: #d3c1ce;
   
   border-radius: 5px;
-  box-shadow: 5px 5px 5px gray;
+  
   margin: 1px;
   padding:15px 20px;
 }
@@ -270,7 +270,7 @@ background-color:rgb(246, 246, 248);
   flex-direction: row;
   justify-content:space-between;
   padding:0px;
-  background-color:rgb(129, 147, 201);;
+  background-color:rgb(249, 248, 246);
 
 }
 .quizlist{
