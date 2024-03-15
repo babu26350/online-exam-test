@@ -18,7 +18,7 @@ const HomeTest = () => {
   useEffect(() => {
     //Implementing the setInterval method
     const interval = setInterval(() => {
-      setTime((c) => c = 1);
+      setTime((c) => c + 1);
       console.log(interval);
       if (time === 20) {
         setnColor();
