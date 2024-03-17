@@ -8,7 +8,7 @@ export const Contact = ()=>{
   alert(location.state[0].name)
   }
     return (<>  
-            <div style={{display:"inline-block",height:"100vh",width:"100%"}}className="quizbox">
+            <div style={{display:"inline-block",minHeight:"230vh",width:"100%"}}className="asidemain">
 
          <div className="nav">
         <ul>
@@ -32,10 +32,11 @@ export const Contact = ()=>{
       </div>
 
       <Outlet />
-        <div style={{textAlign:"center",height:"100%"}} className="header"> 
+        <div style={{textAlign:"center",height:"230vh"}} className="header"> 
         <h3>WELCOME</h3>
         
-        <p>E-MAIL US-bj167745@gmail.com </p>
+        <p>E-MAIL US- </p> 
+        <p style={{fontSize:"35px"}}>bj167745@gmail.com </p>
         
         <p>Contact-Us at <span style={{color:"red"}}>6378918603</span> </p>
         

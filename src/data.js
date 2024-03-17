@@ -2,7 +2,7 @@
 
 const people = [{
     id: 0,
-    name: 'raajkumar sharma',
+    name: 'raajkumar sharma', 
     profession: 'mathematician',
     accomplishment: 'spaceflight calculations',
     imageId: 'MK3eW3A'

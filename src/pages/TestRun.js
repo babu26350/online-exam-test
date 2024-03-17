@@ -95,7 +95,7 @@ data[count].question.color=""
           }}
           
         >
-          <span style={{ color: color,display:"inline-block",marginTop:"7px",marginLeft:"11px",fontSize:"15px" }}>
+          <span style={{ color: color,display:"inline-block",marginTop:"0px",marginLeft:"11px",fontSize:"17px" }}>
             {time === 30*data.length && getResult()}Run:{time}/{30*data.length}/{Math.round(time/(30*data.length)*100)}%
           </span>
         </ul>
@@ -110,12 +110,14 @@ data[count].question.color=""
           <div className="asidemain">
             <Quizlist QuizCountHandler={QuizCountHandler} data={data} count={count} />
             <div className="quizbox">
-              <div className="headerbox">
+            <div className="countbox">
+            <div style={{ textAlign: "left" }} className="questionList">
+              <div style={{justifyContent:"flex-start"}} className="headerbox">
                 <h2 className="headstyle">ONLINE TEST</h2>
               </div>
 
-              <div className="countbox">
-                <div style={{ textAlign: "left" }} className="questionList">
+            
+               
                   <p style={{color:"white"}} className="question bottom">
                     {data[count - 1].question.id}.
                     {data[count - 1].question.label}

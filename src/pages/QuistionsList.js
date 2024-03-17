@@ -11,7 +11,7 @@ call.question.color=""}
 }
     return(
       
-         <div style={{width:"40%",textAlign:"center",marginLeft:"0px"}} className="mainquizList">
+         <div style={{textAlign:"center",marginLeft:"0px"}} className="mainquizList">
             
           <table id="customers">
             <thead>
