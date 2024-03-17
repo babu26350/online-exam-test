@@ -11,6 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   padding: 0px;
+  background-color:rgb(229, 212, 177);
+
 }
 .header{
   color:red;
@@ -72,14 +74,16 @@ ul{
 }
 .nav{
   width: 100%;
-
+  max-width: 1275px;
+  margin: 0px auto;
   position: sticky;
   top: 0;
-  left: 0;
+  left:0;
+  
   background-color:#3d4882;
 
   
-  margin: 0px;
+  
   font-size: 16px;
   display: flex;
   flex-direction: row;
@@ -242,6 +246,7 @@ color:rgb(20, 17, 17);}
   margin: 2px;
 }
 .root{
+  background-color:rgb(229, 212, 177);
 
   box-sizing: border-box;
   padding: 0px auto;
@@ -290,7 +295,7 @@ background-color:rgb(246, 246, 248);
 
 }
 .asidemain{
-  max-width: 1175px;
+  max-width: 1275px;
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
