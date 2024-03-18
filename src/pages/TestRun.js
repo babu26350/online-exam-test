@@ -86,7 +86,7 @@ data[count].question.color=""
         </ul>
         <ul
           style={{
-            width: "150px",
+            width: "159px",
             height: "40px",
             background:"white",
             padding: "10px",
@@ -116,7 +116,7 @@ data[count].question.color=""
                 <h2 className="headstyle">ONLINE TEST</h2>
               </div>
 
-            
+            <br/>
                
                   <p style={{color:"white"}} className="question bottom">
                     {data[count - 1].question.id}.
