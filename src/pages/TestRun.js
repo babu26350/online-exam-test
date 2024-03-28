@@ -132,7 +132,7 @@ data[count].question.color=""
                       checked={data[count - 1].options[0].checked}
                       onClick={myFunc.bind(this, data[count - 1].options[0])}
                     />
-                    A.{data[count - 1].options[0].label}
+                    {data[count - 1].options[0].label}
                   </label>
                   <br />
                   <br />
@@ -143,7 +143,7 @@ data[count].question.color=""
                       checked={data[count - 1].options[1].checked}
                       onClick={myFunc.bind(this, data[count - 1].options[1])}
                     />
-                    B.{data[count - 1].options[1].label}
+                    {data[count - 1].options[1].label}
                   </label>
                   <br />
                   <br />
@@ -155,7 +155,7 @@ data[count].question.color=""
                       checked={data[count - 1].options[2].checked}
                       onClick={myFunc.bind(this, data[count - 1].options[2])}
                     />
-                    B.{data[count - 1].options[2].label}
+                    {data[count - 1].options[2].label}
                   </label>
                   <br />
                   <br />
@@ -166,7 +166,7 @@ data[count].question.color=""
                       checked={data[count - 1].options[3].checked}
                       onClick={myFunc.bind(this, data[count - 1].options[3])}
                     />
-                    D.{data[count - 1].options[3].label}
+                    {data[count - 1].options[3].label}
                   </label>
                   <br />
                   <br />
