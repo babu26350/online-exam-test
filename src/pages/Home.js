@@ -15,7 +15,7 @@ import { Outlet, Link } from "react-router-dom";
           </li>
         
           <li>
-            <Link to="/HomeTest/">START TEST</Link>
+            <Link to="/HomeTest/">TEST</Link>
           </li>
         <li>
           <Link to="/contact/">CONTACT</Link>
@@ -28,7 +28,7 @@ import { Outlet, Link } from "react-router-dom";
         <div className="asidemain">
 
 
-        <h1 className="h1">Welcome To  Online Test  </h1>
+        <h1 className="h1"><Link to="/HomeTest/">Welcome To Online Test </Link>  </h1>
         </div>
          </>
     )

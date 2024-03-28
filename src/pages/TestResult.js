@@ -37,7 +37,7 @@ function ShowResult() {
           <Link to="/Home/">HOME</Link>
              </li>
            <li>
-            <Link to="/HomeTest/">START TEST</Link>
+            <Link to="/HomeTest/">TEST</Link>
           </li>
           <li>
           <Link to="/contact/">CONTACT</Link>

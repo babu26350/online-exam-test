@@ -10,7 +10,7 @@ import Quizlist from "./QuistionsList";
 
 const HomeTest = () => {
   const navigate = useNavigate();
-  const [data, setData] = useState(0);
+  const [data, setData] = useState('');
   const [count, setCount] = useState(1);
   const [time, setTime] = useState(0);
   const [color, setColor] = useState("green");
@@ -75,7 +75,7 @@ data[count].question.color=""
           </li>
 
           <li className="active">
-            <Link to="/HomeTest/">START TEST</Link>
+            <Link to="/HomeTest/">TEST</Link>
           </li>
           <li>
             <Link to="/contact/">CONTACT</Link>

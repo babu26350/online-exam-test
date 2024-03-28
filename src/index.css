@@ -80,7 +80,7 @@ ul{
   top: 0;
   left:0;
   
-  background-color:#3d4882;
+  background-color:#746d67;
 
   
   
@@ -343,9 +343,12 @@ border: .5px solid rgb(229, 227, 227);
     min-width: 360px;
     
   }
+  .questions{margin-left: 10%;}
+  .buttonstyle{margin-left: 10%;}
   .mainquizList{
     width: 100%;
     min-width: 360px;
+    display: none;
     
   }
 }
@@ -358,6 +361,7 @@ border: .5px solid rgb(229, 227, 227);
       
       
     }
+    li{min-width: 110px;}
     .quizbox{
       width: 100%;
       margin-right: auto;
