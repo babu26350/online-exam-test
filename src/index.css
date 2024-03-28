@@ -60,7 +60,7 @@ ul{
 .questionList{
   width:100%;
   
-  min-width: 400px;
+  min-width: 340px;
   
   text-align: center;
   
@@ -282,7 +282,7 @@ box-sizing: border-box;
  width: 30%;
 
   max-height: 100vh;
-  min-width: 370px;
+  min-width: 355px;
   max-width: 400px;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -335,19 +335,28 @@ border: .5px solid rgb(229, 227, 227);
   
   .asidemain{
     width: 100%;
+    padding: 0px;
+    min-width: 355px;
+    box-sizing: border-box;
     justify-content: center;
   }
   .quizbox{
     
     width: 100%;
-    min-width: 360px;
+    min-width: 355px;
     
   }
+  .nav{min-width: 355px;
+  
+  }
   .questions{margin-left: 10%;}
+  .question{padding: 0px 2px;
+  width: 320px;
+  }
   .buttonstyle{margin-left: 10%;}
   .mainquizList{
     width: 100%;
-    min-width: 360px;
+    min-width: 355px;
     display: none;
     
   }
