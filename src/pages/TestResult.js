@@ -69,18 +69,18 @@ function ShowResult() {
                 <tr>
                   
                   <td>{i+1}</td>
-                  <td>{Res[i].question.id}</td>
-                  <td>{Res[i].question.label}</td>
-                  <td>{Res[i].options[0].label}</td>
-                  <td>{Res[i].options[1].label}</td>
-                  <td>{Res[i].options[2].label}</td>
-                  <td>{Res[i].options[3].label}</td>
-                  <td>{Res[i].userResId}</td>
-                  <td>{Res[i].userResId ? "Attempted" : "Unattempted"}</td>
+                  <td>{res.question.id}</td>
+                  <td>{res.question.label}</td>
+                 <td>{res.options[0].label}</td> 
+                  <td>{res.options[1].label}</td>
+                  <td>{res.options[2].label}</td>
+                  <td>{res.options[3].label}</td>
+                  <td>{res.userResId}</td>
+                  <td>{res.userResId ? "Attempted" : "Unattempted"}</td>
                   <td>
-                    {Res[i].correctAnswerId === Res[i].userResId
+                    {res.correctAnswerId === res.userResId
                       ? "Correct"
-                      : Res[i].userResId
+                      : res.userResId
                       ? "incorrect"
                       : "left"}
                   </td>
