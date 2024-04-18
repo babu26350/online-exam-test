@@ -367,7 +367,7 @@ border: .5px solid rgb(229, 227, 227);
     }
     .mainquizList{
       width: 100%;
-      
+      display:none;
     
       max-width: 920px;
     }
