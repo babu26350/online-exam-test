@@ -290,7 +290,8 @@ background-color:rgb(246, 246, 248);
 
 }
 .asidemain{
-  max-width: 1175px;
+  max-width:auto;
+
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
