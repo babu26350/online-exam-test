@@ -10,13 +10,20 @@ const userRes = [];
 function ShowResult() {
  // const {props} =useParams()
   const [Res, setRes] = useState(userRes);
+  const [Res1, setRes1] = useState(Res);
+  
+  const [selectedValue, setSelectedValue] = useState("");
 //alert(props)
+
   useEffect(()=>{
     GetResult();
-  });
+    
+  },[]);
+  
   const location=useLocation()
   
   function GetResult() {
+    
      const userRes = location.state.map((item) => {
       let attemptedOption = item.options.find((o) => o.checked === true);
       const userResObj = item;
@@ -26,8 +33,38 @@ function ShowResult() {
     });
 
     setRes(userRes);
+    setRes1(userRes);
+
+    console.log(userRes)
   }
- 
+  const handleFilterChange = (event) => {
+    const value = event.target.value;
+    setSelectedValue(value);
+  
+  
+    if(value==="Left"){
+ var val0=Res.filter(res=>res.userResId===undefined)
+ setRes1(val0)   
+  }
+
+   else if(value==="Correct"){
+   let val1=Res.filter(res=>res.userResId===res.correctAnswerId)
+   
+    setRes1(val1)     
+  }
+  else if(value==="All"){
+    
+    
+     setRes1(Res)     
+   }
+     else {
+    var val2=Res.filter(res=>res.userResId!==res.correctAnswerId && res.userResId!== undefined)
+     setRes1(val2)   
+     }
+
+  
+     // Pass the selected value to the parent component
+  };
 
   return (
     <>
@@ -47,7 +84,7 @@ function ShowResult() {
       </nav>
 
       <Outlet />
-        
+       {Res && 
       <div className="tablebox">
         
           <table id="customers">
@@ -62,10 +99,20 @@ function ShowResult() {
                 <th>option4</th>
                 <th>selectedOp Id</th>
                 <th>Attempted/UnAttempted</th>
-                <th>answerStatus</th>
+                <th>answerStatus
+                <label htmlFor="filterSelect"></label>
+      <select id="filterSelect" value={selectedValue} onChange={handleFilterChange}>
+        
+        
+        <option value="All">All</option>
+        <option value="Incorrect">Incorrect</option>
+        <option value="Correct">Correct</option>
+        <option value="Left">Left</option>
+      </select>
+                </th>
               </tr>
             </thead>
-            { Res.map((res, i) => (
+             {Res1.map((res, i) => (
                 <tr>
                   
                   <td>{i+1}</td>
@@ -85,10 +132,13 @@ function ShowResult() {
                       : "left"}
                   </td>
                 </tr>
+                    
               ))}
+
           </table>
-        
+            
       </div>
+}
     </>
   );
 }
