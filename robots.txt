@@ -1,3 +1,43 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+BABULAL JOSHI WEB DEVELOPER
+tc.babulal.joshi@gmail.com 6378918603
+https://www.linkedin.com/in/babulal-joshi-6788872bb babu26350
+   Delhi NCR
+ 
+SUMMARY
+❏ Around 2.5+ years of experience in the Software Industry.
+❏ Expertise in Web-Application, Website and SEO
+❏ Thorough experience in software development methodology and Quality. Process. Worked in various projects adhering to
+phases of software development life cycle, which includes system study, analysis, design, development, testing and
+implementation. 
+EDUCATION
+MGSU Bikaner July 2004 - July 2007
+BSc 2007
+EMPLOYMENT
+SS Infotech, Senior Web Developer, http://ssgroupservice.com Jan. 2022 - Current
+Kick Started IT career. Gained expertise in web development technologies and utilizing the same in solving real-world problems.
+Enjoying startup organization's great learning curve and friendly environment.
+WEB CLIENT SIDE: React JS, Javascript, HTML, CSS, JQuery, Bootstrap, JSON, Saas/Less
+OTHER: Rest Web Services, HTTP, Git
+SKILLS
+PROJECTS
+Online Test Jan. 2024 - May 2024
+Description - A react application to facilitate its users to attempt online test examinations, and observe & compare results. The
+objective of the application is to provide a platform for its users to practice test examinations. An intuitive UI consisting of a list
+of questions, easy navigation between questions, time-boxed test submission, and a detailed summary page to display the list
+of attempted/unattempted and correct/incorrect questions.
+Tech Stack - React JS, Javascript, HTML, CSS, Bootstrap
+Role - End to end development and testing
+‘Shayari’ Portal Aug. 2023 - Dec. 2023
+Description - The ‘Shayari’ Web Project is an initiative focused on creating an online platform dedicated to showcasing a
+diverse collection of poems from various poets, cultures, and genres. This project aims to provide a centralised hub where
+poetry enthusiasts can explore, discover, and engage with a rich assortment of poetic works, fostering a community around the
+art of poetry appreciation and expression..
+Tech Stack - Javascript, HTML5, CSS, Bootstrap
+Role - End to end development and testing
+Official Website Revamp Feb. 2023 - May 2023
+Description - Revamped the official website of SS Infotech, in order to modernize and enhance the online presence of our
+organization by redesigning and restructuring our website. This initiative is driven by the need to reflect our evolving services,
+improve user experience, and align with current web standards and trends. The revamped website will serve as a central
+platform for engaging with clients, showcasing our expertise, and promoting our solutions and services effectively.
+Tech Stack - Javascript, HTML5, CSS, Bootstrap
+Role - End to end development and testing
